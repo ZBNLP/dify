@@ -13,8 +13,8 @@ jobs:
     - name: Checkout code from Dify repo
       uses: actions/checkout@v3
       with:
-        repository: langgenius/dify/tree/release/0.10.2-fix1
-        path: dify
+        repository: langgenius/dify
+        path: dify/tree/release/0.10.2-fix1
 
     - name: Install yq
       run: |
